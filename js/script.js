@@ -18,4 +18,4 @@ console.log(password);
 
 var title = document.getElementById('password');
 console.log(title);
-title.innertHTML = ('La tua password è:') + password;
+title.innerText = ('La tua password è:') + password;
